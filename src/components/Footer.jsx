@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
 
 const Footer = () => (
-    <footer className="bg-gray-800 text-white mt-10 overflow-hidden">
+    <footer className="bg-gray-800 text-white overflow-hidden">
         <div className='flex flex-col items-center flex-wrap gap-4 p-10'>
 
             <div className="w-full flex justify-evenly items-center sm:flex-col sm:text-center flex-wrap">
-                <div className="w-full sm:w-1/4 mb-6 xs:mb-9">
+                <div className="w-full mb-6 xs:mb-9">
                     <h3 className="text-lg font-semibold mb-4 xs:mb-0">About Us</h3>
                     <p>
                         We are dedicated to providing the best selection of shoes for every occasion. Explore our variety of styles and find your perfect fit.
                     </p>
                 </div>
 
-                <div className="w-full sm:w-1/4 mb-6 xs:mb-9">
+                <div className="w-full mb-6 xs:mb-9">
                     <h3 className="text-lg font-semibold mb-4 xs:mb-0">Customer Service</h3>
                     <ul>
                         <li>Contact Us</li>

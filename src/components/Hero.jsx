@@ -15,7 +15,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <div className="w-full overflow-hidden relative mb-5">
+        <div className="w-full overflow-hidden relative">
             <div
                 className="flex transition-transform duration-1000 ease-in-out"
                 style={{ transform: `translateX(-${currentIndex * 100}%)` }}
