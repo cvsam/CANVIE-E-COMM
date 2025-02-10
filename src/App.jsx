@@ -1,11 +1,15 @@
-import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HomePage, ProductListing, ShoppingCart, CheckOut } from './pages';
 
-function App() {
-  return (
-    <div>
-      <h1 class="text-3xl font-bold text-blue-900 text-center my-5">Hello World</h1>
-    </div>
-  )
-}
+const App = () => (
+  <Router>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/products" element={<ProductListing />} />
+      <Route path="/cart" element={<ShoppingCart />} />
+      <Route path="/checkout" element={<CheckOut />} />
+    </Routes>
+  </Router>
+)
 
-export default App
+export default App;
