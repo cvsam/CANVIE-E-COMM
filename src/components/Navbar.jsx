@@ -1,8 +1,8 @@
-import { LogoSvg, close, menu, cart } from "../assets";
+import { LogoSvg, cart } from "../assets";
 import { Link } from "react-router-dom";
 
 const Navbar = () => (
-  <nav className="flex justify-between items-center py-8 w-full px-10 sm:px-3 sm:flex-col sm:gap-10 sm:justify-center mb-5">
+  <nav className="flex justify-between items-center py-8 w-full px-10 gap-10 mb-5">
     <div>
       <Link to="/">
         <img src={LogoSvg} alt="logo" className="sm:w-[60px]" />

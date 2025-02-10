@@ -1,7 +1,7 @@
 import CartItem from "./CartItem";
-import ProductCard from "./ProductCard";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Footer from "./Footer";
+import ProtectedRoute from "./ProtectedRoute"
 
-export { CartItem, ProductCard, Navbar, Hero, Footer };
+export { CartItem, Navbar, Hero, Footer, ProtectedRoute };

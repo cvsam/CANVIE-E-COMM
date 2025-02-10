@@ -1,19 +1,22 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { HomePage, ShoppingCart, CheckOut, NotFound } from './pages';
-import { Navbar, Hero, Footer } from './components';
+import { HomePage, ArrivalPage, NotFound, ShoppingCart } from './pages';
+import { Navbar, Hero, Footer, ProtectedRoute } from './components';
+import { AuthProvider } from './context/AuthContext';
 
 const App = () => (
-  <Router>
-    <Navbar />
-    <Hero />
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/cart" element={<ShoppingCart />} />
-      <Route path="/checkout" element={<CheckOut />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
-    <Footer />
-  </Router>
+  <AuthProvider>
+    <Router>
+      <Navbar />
+      <Hero />
+      <Routes>
+        <Route path="/arrival" element={<ArrivalPage />} />
+        <Route path="/" element={<ProtectedRoute><HomePage /></ProtectedRoute>} />
+        <Route path="/cart" element={<ProtectedRoute><ShoppingCart /></ProtectedRoute>} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <Footer />
+    </Router>
+  </AuthProvider>
 );
 
 export default App;
