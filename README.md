@@ -1,6 +1,6 @@
 # 🛒Mini E-Commerce Application
 
-A minimal **React + Vite** project with **Tailwind CSS** and **Firebase** integration, designed to deliver high performance and fast development cycles. This project demonstrates key modern web development practices, including hot module replacement (HMR), optimized builds, and clean code with ESLint configurations.
+A modern e-commerce web application built with **React** and **Vite**, styled with **Tailwind CSS**, and integrated with **Firebase** for authentication and database management. This project aims to provide a smooth shopping experience, featuring responsive design, user authentication, and product management.
 
 ## 📚Table of Contents
 
@@ -38,12 +38,10 @@ A minimal **React + Vite** project with **Tailwind CSS** and **Firebase** integr
     └── src/                        # Source code directory
         ├── App.jsx                 # Main React component
         ├── main.jsx                # Entry point for the React application
-        ├── components/             # Directory for React components
-        │   ├── CartItem.js         # Component for individual cart items
-        │   ├── Navbar.js           # Navigation bar component
-        │   └── ProductCard.js      # Component for displaying product information
-        └── styles/                 # Directory for CSS styles
-            └── index.css           # Main CSS file
+        ├── components/             # React components (Navbar, Footer, etc.)
+        ├── context/                # Context API for authentication
+        ├── pages/                  # Page components (Home, ShoppingCart, etc.)
+        └── services/               # Firebase configuration and services
 ```
 
 ## 🛠️Getting Started
@@ -58,7 +56,7 @@ A minimal **React + Vite** project with **Tailwind CSS** and **Firebase** integr
 1. Clone the repository:
     ```bash
     git clone https://github.com/cvsam/CANVIE-E-COMM.git
-    cd mini-e-commerce
+    cd cvsam-canvie-e-comm
     ```
 
 2. Install Yarn globally if you haven't already:
@@ -117,13 +115,13 @@ A minimal **React + Vite** project with **Tailwind CSS** and **Firebase** integr
 
 ## ⚙️ESLint Configuration
 
-ESLint is pre-configured with the following plugins:
+This project uses ESLint for maintaining code quality. The configuration includes the following rules:
 
-- `eslint-plugin-react`
-- `eslint-plugin-react-hooks`
-- `eslint-plugin-react-refresh`
+- React-specific linting rules (`eslint-plugin-react`)
+- React hooks linting (`eslint-plugin-react-hooks`)
+- Prettier integration (`eslint-plugin-prettier`)
 
-Run the linter:
+To run the linter:
 ```bash
 yarn lint
 ```
