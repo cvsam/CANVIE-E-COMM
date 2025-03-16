@@ -30,7 +30,7 @@ A modern e-commerce web application built with **React** and **Vite**, styled wi
 .
 └── cvsam-canvie-e-comm/
     ├── README.md                   # Project documentation
-    ├── README.old.md               # Previous version of the README
+    ├── SETUP.md                    # Project setup guide
     ├── eslint.config.js            # ESLint configuration file
     ├── index.html                  # Main HTML file
     ├── package.json                # Project metadata and dependencies
