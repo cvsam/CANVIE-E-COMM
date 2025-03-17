@@ -6,15 +6,16 @@ A modern e-commerce web application built with **React** and **Vite**, styled wi
 
 1. [Features](#features)
 2. [Project Structure](#project-structure)
-3. [Getting Started](#️getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
+3. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
 4. [Firebase Configuration](#firebase-configuration)
 5. [Available Scripts](#available-scripts)
-6. [ESLint Configuration](#️eslint-configuration)
+6. [ESLint Configuration](#eslint-configuration)
 7. [Contributing](#contributing)
-8. [Creating Issues](#creating-issues)
-9. [Acknowledgments](#acknowledgments)
+8. [Setup Instructions](#setup-instructions)
+9. [Creating Issues](#creating-issues)
+10. [Acknowledgments](#acknowledgments)
 
 ## Features
 
