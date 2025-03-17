@@ -27,7 +27,7 @@ A modern e-commerce web application built with **React** and **Vite**, styled wi
 
 ## Project Structure
 
-``` 
+```
 .
 └── cvsam-canvie-e-comm/
     ├── README.md                   # Project documentation
@@ -161,8 +161,6 @@ The setup guide includes detailed instructions for:
 - Project structure creation
 - Development server instructions
 - Troubleshooting common issues
-
-This documentation is particularly valuable for those who wish to replicate our development environment or understand the foundational structure of this project. If you encounter any difficulties following these instructions, please consult the troubleshooting section in the setup guide or open an issue in our issue tracker.
 
 ## Creating Issues
 
