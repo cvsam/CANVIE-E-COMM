@@ -27,7 +27,7 @@ A modern e-commerce web application built with **React** and **Vite**, styled wi
 
 ## Project Structure
 
-```
+```plaintext
 .
 └── cvsam-canvie-e-comm/
     ├── README.md                   # Project documentation
@@ -74,6 +74,7 @@ A modern e-commerce web application built with **React** and **Vite**, styled wi
    ```
 
 4. Start the development server:
+
    ```bash
    yarn dev
    ```
@@ -137,17 +138,23 @@ yarn lint
 
 1. Fork the repository.
 2. Create your feature branch:
+
    ```bash
    git checkout -b feature/awesome-feature
    ```
+
 3. Commit your changes:
+
    ```bash
    git commit -m "Add awesome feature"
    ```
+
 4. Push to the branch:
+
    ```bash
    git push origin feature/awesome-feature
    ```
+
 5. Open a pull request.
 
 ## Setup Instructions
